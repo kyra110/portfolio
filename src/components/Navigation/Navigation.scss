@@ -1,0 +1,14 @@
+.header__nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  li{
+    color: white;
+    list-style: none;
+    width: fit-content;
+    padding: 5px 15px;
+    border: 2px solid white;
+    margin-left: 20px;
+  }
+}
