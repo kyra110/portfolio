@@ -8,11 +8,11 @@ const Home = () => {
           <h1>Salut , c&apos;est Michel !</h1>
           <p>
             Développeur Front-End
-            <img src="/LogoReact.png" alt="Logo React" />
+            <img src="./LogoReact.png" alt="Logo React" />
           </p>
         </div>
         <div className="container__photo__kyra">
-          <img className="photoKyra" src="/photoKyraCube.png" alt="Photo Kyra" />
+          <img className="photoKyra" src="./photoKyraCube.png" alt="Photo Kyra" />
         </div>
       </div>
       <div className="home__social">
@@ -22,14 +22,14 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/LogoYoutube.png" alt="Logo Youtube" />
+            <img src="./LogoYoutube.png" alt="Logo Youtube" />
           </Link>
           <Link
             to="https://github.com/kyra110"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/LogoGithub.png" alt="Logo Github" />
+            <img src="./LogoGithub.png" alt="Logo Github" />
           </Link>
         </div>
         <button>Discutons</button>
