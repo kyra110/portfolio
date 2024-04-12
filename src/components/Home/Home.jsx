@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -22,14 +26,28 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./LogoYoutube.png" alt="Logo Youtube" />
+            <FaYoutube style={{ color: 'red'  }} size={100}/>
           </Link>
           <Link
             to="https://github.com/kyra110"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./LogoGithub.png" alt="Logo Github" />
+            <FaGithubSquare style={{ color: 'hsl(0, 0%, 100%)'  }} size={100} />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/michel-garcia-b70858293/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin style={{ color: 'rgb(10,102,194)'  }} size={100} />
+          </Link>
+          <Link
+            to="https://twitter.com/KyraCoding"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaSquareXTwitter style={{ color: 'hsl(0, 0%, 100%)'  }} size={100}/>
           </Link>
         </div>
         <button>Discutons</button>
