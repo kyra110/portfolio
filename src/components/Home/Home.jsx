@@ -3,6 +3,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaReact } from "react-icons/fa";
 import Contact from "../Contact/Contact";
 import { useState } from 'react';
 
@@ -26,7 +27,7 @@ const Home = () => {
           <h1>Salut , c&apos;est Michel !</h1>
           <p>
             Développeur Front-End
-            <img src="./LogoReact.png" alt="Logo React" />
+            <FaReact style={{ color: '#5ED3F4'  }} size={50} />
           </p>
         </div>
         <div className="container__photo__kyra">
