@@ -31,7 +31,7 @@ const Home = () => {
           </p>
         </div>
         <div className="container__photo__kyra">
-          <img className="photoKyra" src="./photoKyraCube.png" alt="Photo Kyra" />
+          <img className="photoKyra" src="https://raw.githubusercontent.com/kyra110/portfolio/gh-pages/photoKyraCube.png" alt="Photo Kyra" />
         </div>
       </div>
       <div className="home__social">
