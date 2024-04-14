@@ -1,0 +1,48 @@
+.a-propos{
+  height: 88vh;
+  width: 100%;
+  h1{
+    color: hsl(229, 27%, 83%);
+    font-size: 1.5rem;
+    list-style: none;
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .video-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h2{
+      color: $secondary-foreground;
+      font-size: 1.5rem;
+      list-style: none;
+      padding: 5px 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
+  .video-code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h2{
+      color: $secondary-foreground;
+      font-size: 1.5rem;
+      list-style: none;
+      padding: 5px 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
+}
+@media only screen and (max-width: 775px) {
+
+
+  }
