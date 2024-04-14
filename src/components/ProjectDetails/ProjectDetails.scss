@@ -10,6 +10,11 @@
     left: 0;
     background-color: #0f111aa1;
     border-radius: 10px;
+    svg{
+      position: absolute;
+      top:5px;
+      right: 5px;
+    }
     h2{
       color:$accent-foreground;
       font-size: 1.2rem;
