@@ -1,48 +1,52 @@
-.a-propos{
-  height: 88vh;
+.a-propos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
   width: 100%;
-  h1{
+  h1 {
     color: hsl(229, 27%, 83%);
     font-size: 1.5rem;
     list-style: none;
     width: fit-content;
     padding: 5px 20px;
-    margin-left: 20px;
     margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .video-presentation{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    h2{
-      color: $secondary-foreground;
-      font-size: 1.5rem;
-      list-style: none;
-      padding: 5px 20px;
-      margin-left: 20px;
-      margin-bottom: 20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+  p {
+    width: 70%;
+    color: $foreground;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 5px 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsla(174, 42%, 65%, 0.295);
+    border-radius: 15px;
   }
-  .video-code{
+  h2 {
+    color: $secondary-foreground;
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+/*Media Queries Mobile*/
+@media only screen and (max-width: 775px) {
+  .a-propos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    h2{
-      color: $secondary-foreground;
-      font-size: 1.5rem;
-      list-style: none;
-      padding: 5px 20px;
-      margin-left: 20px;
-      margin-bottom: 20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    p{
+      font-size: 1rem;
+      margin-left: 0;
+      width: 80%;
     }
   }
 }
-@media only screen and (max-width: 775px) {
 
-
-  }

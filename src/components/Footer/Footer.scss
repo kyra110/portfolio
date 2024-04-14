@@ -1,6 +1,15 @@
 footer{
+  width: 100%;
   p{
     color: $accent-foreground;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+/*Media Queries Mobile*/
+@media only screen and (max-width: 775px) {
+  footer{
+    p{
+      text-align: center;
+    }
   }
 }
