@@ -38,6 +38,12 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: bold;
     }
+    .descriptionMobile{
+      display: none;
+    }
+    .description{
+      display: flex;
+    }
     ul{
       display: flex;
       align-items: flex-start;
@@ -48,6 +54,17 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1rem;
         list-style: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 775px) {
+    .project-details{
+      .descriptionMobile{
+        display: flex;
+      }
+      .description{
+        display: none;
       }
     }
   }

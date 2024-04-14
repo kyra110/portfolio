@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Kasa",
     "description": "Premier projet React, démarré rapidement avec Vite comme bundle. J'ai intégré les conceptions depuis une maquette Figma, composants réutilisables avec des props.",
+    "description_mobile": "Projet React rapide, intégration depuis Figma.",
     "technologies": [ "REACT","SEO","Figma", "GitHub", "SASS", "HTML"],
     "image":"https://kyra110.github.io/portfolio/kaza1.png"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "title": "Argent Bank",
     "description": "Ce projet a consisté à créer un site web React en transformant des maquettes HTML en composants React, en utilisant Redux pour une meilleure fluidité et une réduction des appels réseau, et en préparant une documentation Swagger pour faciliter l'intégration de futures fonctionnalités.",
+    "description_mobile": "Site React avec Redux, maquettes HTML en composants.",
     "technologies": ["REDUX", "SEO", "REACT", "Figma", "GitHub", "SASS", "HTML"],
     "image":"https://kyra110.github.io/portfolio/bank-tree.webp"
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "title": "Jeux du Snake",
     "description": "Pendant un weekend, j'ai exploré le monde des jeux en JavaScript en créant un petit jeu Snake avec une version mobile. J'ai réalisé moi-même les bruitages. Ce projet, intégré en HTML, CSS et JavaScript classique, permet de jouer sur mobile grâce à des boutons tactiles. Vous pouvez voir votre score en temps réel pendant la partie et choisir d'activer ou non une musique d'ambiance. Amusez-vous bien !",
+    "description_mobile": "Jeu Snake mobile en HTML, CSS et JavaScript.",
     "technologies": ["HTML", "CSS", "JavaScript", "GitHub"],
     "image":"https://kyra110.github.io/portfolio/snakeJS.png"
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "title": "Sophie Bluel",
     "description": "Le projet Javascript de la formation que j'ai le plus apprécié impliquait l'intégration à partir de maquettes avec Sass, des appels à l'API pour la connexion de l'utilisateur, ainsi que la création d'un espace admin où l'administrateur pouvait ajouter ou supprimer un projet.",
+    "description_mobile": "Intégration depuis maquettes avec Sass, appels API.",
     "technologies": ["JavaScript","API", "Sass","HTML", "GitHub", "Figma"],
     "image":"https://kyra110.github.io/portfolio/sophieB1.png"
   },
@@ -31,7 +35,9 @@
     "id": 5,
     "title": "Portfolio",
     "description": "Dans ce portfolio, j'ai rassemblé toutes mes compétences pour créer un site web React simple et fluide, déployé sur GitHub.",
+    "description_mobile": "Site web React , regroupant mes compétences.",
     "technologies": ["React","API", "SEO","JavaScript", "GitHub", "Figma","HTML", "Sass"],
     "image":"https://kyra110.github.io/portfolio/photoKyraCube.png"
   }
 ]
+
