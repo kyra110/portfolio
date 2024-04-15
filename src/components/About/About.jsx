@@ -1,30 +1,32 @@
+import { MdMovieFilter } from "react-icons/md";
+import { CiPizza } from "react-icons/ci";
+import { IoGameControllerOutline } from "react-icons/io5";
+import { TbSeeding } from "react-icons/tb";
+import Loisir from "../../components/Loisir/Loisir.jsx";
+import loisirs from "../../data/loisirs.json";
 const About = () => {
+  // console.log(loisirs[0].text);
+  const reactIcons = {
+    "MdMovieFilter": MdMovieFilter,
+    "CiPizza": CiPizza ,
+    "IoGameControllerOutline": IoGameControllerOutline,
+    "TbSeeding": TbSeeding
+  }
+  
   return (
     <section className="a-propos">
-      <h1>Un peu plus ?</h1>
-      <p>
-        Je vis dans le sud de l&apos;Occitanie et j&apos;aime sortir en montagne. De temps
-        en temps, je fais une petite randonnée pour prendre l&apos;air après une
-        semaine de travail.
-      </p>
-      <p>
-        Pendant une période hors saison, j&apos;ai réalisé que je voulais un travail
-        un peu plus stable. Je me suis donc tourné vers le web ! Chose que je ne
-        regrette pas du tout.
-      </p>
-      <p>
-        J&apos;ai également le projet de devenir freelance pour proposer mes services
-        d&apos;intégrateur web. J&apos;ai une chaîne YouTube où je partage mon parcours
-        avec tous et où j&apos;essaie de donner un maximum de conseils pour réussir
-        notre formation.
-      </p>
-      <p>
-        Actuellement, je recherche une alternance en PHP/Symfony pour compléter
-        mon arsenal de compétences. Si vous êtes une entreprise, n&apos;hésitez donc
-        pas à me contacter grâce au formulaire de contact en page d&apos;accueil.
-      </p>
-
-      <h2>Je vous souhaite une bonne visite.</h2>
+      <h1>J&apos;aime bien !</h1>
+      <div className="container-loisirs">
+      {loisirs.map((loisir, index) => (      
+        <Loisir
+          key={"loisir",index}
+          title={loisir.title}
+          texts={loisir.text}
+          iconName={reactIcons[loisir.iconName]}
+        />
+          ))}
+      </div>
+      <h3>Je vous souhaite une bonne visite.</h3>
     </section>
   );
 };

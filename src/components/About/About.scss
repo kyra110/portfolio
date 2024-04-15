@@ -13,27 +13,25 @@
     margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  p {
-    width: 70%;
-    color: $foreground;
-    font-size: 1.2rem;
-    list-style: none;
-    padding: 5px 20px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: hsla(174, 42%, 65%, 0.295);
-    border-radius: 15px;
+  .container-loisirs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
   }
-  h2 {
+  h3 {
     color: $secondary-foreground;
     font-size: 1.3rem;
     list-style: none;
     padding: 5px 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
 }
 /*Media Queries Mobile*/
 @media only screen and (max-width: 775px) {

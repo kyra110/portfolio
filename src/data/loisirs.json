@@ -1,0 +1,39 @@
+ [
+    {
+      "id": 1,
+      "title": "Animés",
+      "iconName": "MdMovieFilter",
+      "text": [
+        "One Piece",
+        "Fairy Tail"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pizza",
+      "iconName": "CiPizza",
+      "text": [
+        "La 4 fromages",
+        "La Raclette"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Jeux vidéo",
+      "iconName": "IoGameControllerOutline",
+      "text": [
+        "Zelda",
+        "World of Warcraft"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nature",
+      "iconName": "TbSeeding",
+      "text": [
+        "Randonnées",
+        "Rivières"
+      ]
+    }
+  ]
+
