@@ -6,7 +6,7 @@
   border: 1px solid $modal;
   border-radius: 10px;
   width: 60%;
-  height: 15vh;
+  height: 12vh;
   cursor: pointer;
   .content{
     display: flex;
@@ -35,9 +35,9 @@
 @media only screen and (max-width: 775px) {
   .loisir{
     width: 80%;
-    p{
-      font-size: 1rem;
-    }
+      p{
+        font-size: 1rem;
+      }
     svg{
       height: 4rem;
     }

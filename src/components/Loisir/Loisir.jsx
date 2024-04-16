@@ -13,7 +13,7 @@ const Loisir = ({ title, texts, iconName }) => {
           ))}
         </div>
         <div className="icon-content">
-          <IconComponent style={{ color: "hsl(0, 0%, 100%)" }} size={100} />
+          <IconComponent style={{ color: "hsl(0, 0%, 100%)" }} size={80} />
         </div>
       </div>
     </div>
