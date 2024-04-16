@@ -30,7 +30,7 @@ const About = () => {
       </div>
       <p className="note">
         <TbMessageCode style={{ color: "hsl(0, 0%, 100%)" }} size={20} /> Nothing fancy, but here&apos;s my CV!
-      <a href="/download/cv.pdf" download="cv.pdf">
+      <a href="./download/cv.pdf" download="cv.pdf">
         <HiOutlineIdentification
           style={{ color: "hsl(0, 0%, 100%)" }}
           size={40}
