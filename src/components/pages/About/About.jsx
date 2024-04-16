@@ -1,15 +1,14 @@
-import { MdMovieFilter } from "react-icons/md";
+import { FaYoutube } from "react-icons/fa";
 import { CiPizza } from "react-icons/ci";
 import { IoGameControllerOutline } from "react-icons/io5";
 import { TbSeeding } from "react-icons/tb";
-import { TbMessageCode } from "react-icons/tb";
-import { HiOutlineIdentification } from "react-icons/hi";
-import Loisir from "../../components/Loisir/Loisir.jsx";
-import loisirs from "../../data/loisirs.json";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import Loisir from "../../Loisir/Loisir.jsx";
+import loisirs from "../../../data/loisirs.json";
 const About = () => {
   // console.log(loisirs[0].text);
   const reactIcons = {
-    MdMovieFilter: MdMovieFilter,
+    FaYoutube: FaYoutube,
     CiPizza: CiPizza,
     IoGameControllerOutline: IoGameControllerOutline,
     TbSeeding: TbSeeding,
@@ -17,25 +16,21 @@ const About = () => {
 
   return (
     <section className="a-propos">
-      <h1>J&apos;aime bien !</h1>
+      <h1>à-propos !</h1>
       <div className="container-loisirs">
         {loisirs.map((loisir, index) => (
           <Loisir
             key={("loisir", index)}
             title={loisir.title}
+            url={loisir.url}
             texts={loisir.text}
             iconName={reactIcons[loisir.iconName]}
           />
         ))}
       </div>
       <p className="note">
-        <TbMessageCode style={{ color: "hsl(0, 0%, 100%)" }} size={20} /> Nothing fancy, but here&apos;s my CV!
-      <a href="./download/cv.pdf" download="cv.pdf">
-        <HiOutlineIdentification
-          style={{ color: "hsl(0, 0%, 100%)" }}
-          size={40}
-        />
-      </a>
+        Merci pour votre visite &nbsp;
+        <FaHandHoldingHeart size={40}/>
       </p>
     </section>
   );

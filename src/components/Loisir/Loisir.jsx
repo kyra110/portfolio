@@ -1,8 +1,11 @@
 import PropTypes from "prop-types";
-const Loisir = ({ title, texts, iconName }) => {
+import { Link } from "react-router-dom";
+const Loisir = ({ title, texts, iconName,url }) => {
   // Récupérez l'icône spécifique en fonction du nom passé dans iconName
   const IconComponent = iconName;
-  // console.log(texts);
+    // Définir le style par défaut
+    let iconStyle = { color: "hsl(0, 0%, 100%)" };
+    let iconYoutube = { color: "red" };
   return (
     <div className="loisir">
       <h2>{title}</h2>
@@ -13,7 +16,14 @@ const Loisir = ({ title, texts, iconName }) => {
           ))}
         </div>
         <div className="icon-content">
-          <IconComponent style={{ color: "hsl(0, 0%, 100%)" }} size={80} />
+        {url !== "" ? ( // Vérifie si l'URL n'est pas vide
+            <Link to={url} target="_blank">
+              <IconComponent style={iconYoutube} size={80} />
+            </Link>
+          ) : (
+            // Si l'URL est vide, affiche seulement l'icône sans lien
+            <IconComponent style={iconStyle} size={80} />
+          )}
         </div>
       </div>
     </div>
@@ -22,6 +32,7 @@ const Loisir = ({ title, texts, iconName }) => {
 
 Loisir.propTypes = {
   title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
   texts: PropTypes.array.isRequired,
   iconName: PropTypes.func.isRequired,
 };

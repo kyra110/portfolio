@@ -1,6 +1,6 @@
 import { useState } from "react";
-import projects from "../../data/projects.json";
-import ProjectDetails from "../ProjectDetails/ProjectDetails";
+import projects from "../../../data/projects.json";
+import ProjectDetails from "../../ProjectDetails/ProjectDetails";
 import { Link } from "react-router-dom"; 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);

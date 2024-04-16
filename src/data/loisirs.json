@@ -1,16 +1,18 @@
  [
     {
       "id": 1,
-      "title": "Animés",
-      "iconName": "MdMovieFilter",
+      "title": "Chaine YouTube",
+      "url": "https://www.youtube.com/channel/UCcs9j6AZWBkrfuLz9W8tknA",
+      "iconName": "FaYoutube",
       "text": [
-        "One Piece",
-        "Fairy Tail"
+        "Kyra Coding",
+        "Astuces et Conseils"
       ]
     },
     {
       "id": 2,
       "title": "Pizza",
+      "url": "",
       "iconName": "CiPizza",
       "text": [
         "La 4 fromages",
@@ -20,6 +22,7 @@
     {
       "id": 3,
       "title": "Jeux vidéo",
+      "url": "",
       "iconName": "IoGameControllerOutline",
       "text": [
         "Zelda",
@@ -29,6 +32,7 @@
     {
       "id": 4,
       "title": "Nature",
+      "url": "",
       "iconName": "TbSeeding",
       "text": [
         "Randonnées",
