@@ -1,12 +1,18 @@
 .loisir{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: $border;
   border: 1px solid $modal;
   border-radius: 10px;
   width: 60%;
-  height: 15vh;
+  height: 35vh;
+  .content-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
   .content{
     display: flex;
     flex-direction: row;
@@ -25,15 +31,25 @@
   }
   h2 {
     color: $secondary-foreground;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     list-style: none;
     padding: 5px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  h3 {
+    color: $secondary-foreground;
+    font-size: 1rem;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   p {
     color: $foreground;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     padding: 5px;
     padding-left: 20px;
@@ -44,9 +60,10 @@
 @media only screen and (max-width: 775px) {
   .loisir{
     width: 80%;
-      p{
-        font-size: 1rem;
-      }
+    height: 45vh;
+    p{
+      font-size: 0.8rem;
+    }
     svg{
       height: 4rem;
     }

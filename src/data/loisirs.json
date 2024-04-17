@@ -4,40 +4,17 @@
       "title": "Chaine YouTube",
       "url": "https://www.youtube.com/channel/UCcs9j6AZWBkrfuLz9W8tknA",
       "iconName": "FaYoutube",
-      "text": [
-        "Kyra Coding",
-        "Astuces et Conseils"
-      ]
+      "subtitle": "Kyra Coding",
+      "description":"Sur ma chaîne YouTube, je partage mon parcours sur OpenClassrooms 📚. J'y recrée chaque projet et le documente soigneusement pour renforcer mes acquis. C'est un mélange d'autonomie, de travail acharné et de plaisir 😊 à coder et à échanger avec d'autres passionnés, tout en apprenant !"
     },
     {
       "id": 2,
-      "title": "Pizza",
+      "title": "Formation",
       "url": "",
-      "iconName": "CiPizza",
-      "text": [
-        "La 4 fromages",
-        "La Raclette"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Jeux vidéo",
-      "url": "",
-      "iconName": "IoGameControllerOutline",
-      "text": [
-        "Zelda",
-        "World of Warcraft"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Nature",
-      "url": "",
-      "iconName": "TbSeeding",
-      "text": [
-        "Randonnées",
-        "Rivières"
-      ]
+      "iconName": "FcDiploma1",
+      "subtitle": "Openclassrooms",
+      "description":"Pendant neuf mois, j'ai suivi une formation d'Intégrateur Web au cours de laquelle nous avons réalisé douze projets. J'ai eu l'occasion d'intégrer des maquettes Figma et de rendre les sites web dynamiques en utilisant des appels API en JavaScript, puis en React. J'ai consacré du temps à retravailler chaque projet, ce qui m'a permis d'acquérir des bases solides. De plus, j'ai eu le plaisir de partager mes connaissances avec d'autres étudiants !"
     }
+
   ]
 

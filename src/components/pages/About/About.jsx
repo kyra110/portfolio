@@ -1,17 +1,13 @@
 import { FaYoutube } from "react-icons/fa";
-import { CiPizza } from "react-icons/ci";
-import { IoGameControllerOutline } from "react-icons/io5";
-import { TbSeeding } from "react-icons/tb";
 import { FaHandHoldingHeart } from "react-icons/fa";
+import { FcDiploma1 } from "react-icons/fc";
 import Loisir from "../../Loisir/Loisir.jsx";
 import loisirs from "../../../data/loisirs.json";
 const About = () => {
   // console.log(loisirs[0].text);
   const reactIcons = {
     FaYoutube: FaYoutube,
-    CiPizza: CiPizza,
-    IoGameControllerOutline: IoGameControllerOutline,
-    TbSeeding: TbSeeding,
+    FcDiploma1: FcDiploma1
   };
 
   return (
@@ -23,7 +19,8 @@ const About = () => {
             key={("loisir", index)}
             title={loisir.title}
             url={loisir.url}
-            texts={loisir.text}
+            subtitle={loisir.subtitle}
+            description={loisir.description}
             iconName={reactIcons[loisir.iconName]}
           />
         ))}
