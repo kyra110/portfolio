@@ -1,5 +1,6 @@
 
 import Header from "../Header/Header";
+import LegalNotice from "../LegalNotice/LegalNotice";
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/projets" element={<Projects />} />
           <Route path="/a-propos" element={<About />} />
+          <Route path="/LegalNotice" element={<LegalNotice />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
