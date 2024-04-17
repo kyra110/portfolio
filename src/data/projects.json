@@ -13,7 +13,7 @@
     "description": "Ce projet a consisté à créer un site web React en transformant des maquettes HTML en composants React, en utilisant Redux pour une meilleure fluidité et une réduction des appels réseau, et en préparant une documentation Swagger pour faciliter l'intégration de futures fonctionnalités.",
     "description_mobile": "Site React avec Redux, maquettes HTML en composants.",
     "technologies": ["REDUX", "SEO", "REACT", "Figma", "GitHub", "SASS", "HTML"],
-    "image":"https://kyra110.github.io/portfolio/bank-tree.webp"
+    "image":"https://kyra110.github.io/portfolio/bank-tree.png"
   },
   {
     "id": 3,
