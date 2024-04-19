@@ -61,7 +61,7 @@ const Home = () => {
           >
             <FaLinkedin style={{ color: 'rgb(10,102,194)'  }} size={100} />
           </Link>
-          <a href="./download/cv.pdf" download="cv.pdf" title="Télécharger mon CV">
+          <a href="./download/MichelGarciaCvReact.pdf" download="MichelGarciaCvReact.pdf" title="Télécharger mon CV">
         <TbFileCv
           style={{ color: "hsl(0, 0%, 100%)" }}
           size={100}
