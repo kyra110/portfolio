@@ -5,7 +5,9 @@
     "description": "Premier projet React, démarré rapidement avec Vite comme bundle. J'ai intégré les conceptions depuis une maquette Figma, composants réutilisables avec des props.",
     "description_mobile": "Projet React rapide, intégration depuis Figma.",
     "technologies": [ "REACT","SEO","Figma", "GitHub", "SASS", "HTML"],
-    "image":"https://kyra110.github.io/portfolio/kaza1.png",
+    "image":"/kaza.png",
+    "img_l":"/kasaDesktop.jpg",
+    "img_r":"/kasaMobile.jpg",
     "github":"https://github.com/kyra110/kasa",
     "site":"https://kyra110.github.io/kasa"
   },
@@ -16,6 +18,8 @@
     "description_mobile": "Site React avec Redux, maquettes HTML en composants.",
     "technologies": ["REDUX", "SEO", "REACT", "Figma", "GitHub", "SASS", "HTML"],
     "image":"https://kyra110.github.io/portfolio/bank-tree.png",
+    "img_l":"/argentDesktop.jpg",
+    "img_r":"/argentMobile.jpg",
     "github":"https://github.com/kyra110/ArgentBank",
     "site":"https://kyra110.github.io/ArgentBank/"
   },
@@ -26,6 +30,8 @@
     "description_mobile": "Jeu Snake mobile en HTML, CSS et JavaScript.",
     "technologies": ["HTML", "CSS", "JavaScript", "GitHub"],
     "image":"https://kyra110.github.io/portfolio/snakeJS.png",
+    "img_l":"/snakeDesktop.jpg",
+    "img_r":"/snakeMobile.jpg",
     "github":"https://github.com/kyra110/SmallGameSnake",
     "site":"https://kyra110.github.io/SmallGameSnake/"
   },
@@ -36,16 +42,20 @@
     "description_mobile": "Intégration depuis maquettes avec Sass, appels API.",
     "technologies": ["JavaScript","API", "Sass","HTML", "GitHub", "Figma"],
     "image":"https://kyra110.github.io/portfolio/sophieB1.png",
+    "img_l":"/sophieDesktop1.jpg",
+    "img_r":"/sophieDesktop2.jpg",
     "github":"https://github.com/kyra110/P6-OpenClassrooms",
     "site":"https://kyra110.github.io/P6-OpenClassrooms/FrontEnd/index.html"
   },
   {
     "id": "5",
     "title": "ohmyfood",
-    "description": "Intégration d'un site web pour un restaurant",
+    "description": "Intégration d'un site web pour un restaurant .J'ai mis en place des animations CSS pour rendre l'expérience utilisateur plus dynamique et attrayante, tout en veillant à ce qu'elles restent légères et fluides.  ",
     "description_mobile": "Intégration d'un site web pour un restaurant",
     "technologies": ["JavaScript", "GitHub", "Figma","HTML", "Sass"],
     "image":"https://kyra110.github.io/portfolio/ohmyfoodCover.png",
+    "img_l":"/ohmyfoodDesktop.jpg",
+    "img_r":"/ohmyfoodMobile.jpg",
     "github":"https://github.com/kyra110/opc-projet-4",
     "site":"https://kyra110.github.io/opc-projet-4/restaurants/la-palette-du-gout.html"
   }

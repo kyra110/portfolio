@@ -28,10 +28,10 @@ const ProjectPage = () => {
         </div>
         <div className="container-img">
           <div className="img-L">
-            <img src={project.image} alt={project.title} />
+            <img src={project.img_l} alt={project.title} />
           </div>
           <div className="img-R">
-            <img src={project.image} alt={project.title} />
+            <img src={project.img_r} alt={project.title} />
           </div>
         </div>
       </div>
