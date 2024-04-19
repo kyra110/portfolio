@@ -38,8 +38,8 @@
   {
     "id": "4",
     "title": "Sophie Bluel",
-    "description": "Le projet Javascript de la formation que j'ai le plus apprécié impliquait l'intégration à partir de maquettes avec Sass, des appels à l'API pour la connexion de l'utilisateur, ainsi que la création d'un espace admin où l'administrateur pouvait ajouter ou supprimer un projet.",
-    "description_mobile": "Intégration depuis maquettes avec Sass, appels API.",
+    "description": "Le projet Javascript de la formation que j'ai le plus apprécié impliquait l'intégration à partir de maquettes figma, des appels à l'API pour la connexion de l'utilisateur, ainsi que la création d'un espace admin où l'administrateur pouvait ajouter ou supprimer un projet.",
+    "description_mobile": "Intégration de maquettes avec figma, appels API.",
     "technologies": ["JavaScript","API", "Sass","HTML", "GitHub", "Figma"],
     "image":"https://kyra110.github.io/portfolio/sophieB1.png",
     "img_l":"https://kyra110.github.io/portfolio/sophieDesktop1.jpg",
@@ -50,7 +50,7 @@
   {
     "id": "5",
     "title": "ohmyfood",
-    "description": "Intégration d'un site web pour un restaurant .J'ai mis en place des animations CSS pour rendre l'expérience utilisateur plus dynamique et attrayante, tout en veillant à ce qu'elles restent légères et fluides.  ",
+    "description": "Intégration d'un site web pour un restaurant. J'ai mis en place des animations CSS pour rendre l'expérience utilisateur plus dynamique et attrayante, tout en veillant à ce qu'elles restent légères et fluides.  ",
     "description_mobile": "Intégration d'un site web pour un restaurant",
     "technologies": ["JavaScript", "GitHub", "Figma","HTML", "Sass"],
     "image":"https://kyra110.github.io/portfolio/ohmyfoodCover.png",
