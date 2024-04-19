@@ -26,3 +26,10 @@
     border: 2px solid $primary;
   }
 }
+@media only screen and (max-width: 775px) {
+  .header__nav{
+    a{
+      padding: 5px 10px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+
+.ContainerProjectPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  .projectPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    width: 80%;
+    background-color: $modal;
+    border: 1px solid $foreground;
+    border-radius: 25px;
+    h1{
+      color:$accent-foreground;
+      font-size: 1.5rem;
+      list-style: none;
+      width: fit-content;
+      padding: 5px 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+      color:$accent-foreground;
+      font-size: 0.8rem;
+      width: fit-content;
+      padding: 5px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+    }
+    .links{
+      margin: 10px 0;
+      a{
+        width: fit-content;
+        background-color: $border;
+        color: $accent-foreground;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin-left: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: all 0.3s;
+        &:hover{
+          color: $primary;
+          transform: scale(1.2);
+        }
+      }
+    }
+    .container-img{
+      width: 50%;
+      height: 40%;
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import Home from "../pages/Home/Home";
 import Projects from "../pages/Projects/Projects";
 import About from "../pages/About/About";
+import ProjectPage from "../ProjectPage/ProjectPage";
 
 const App = () => {
   const basename = import.meta.env.MODE === "production" ? "/portfolio" : "" ;
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/projets" element={<Projects />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/LegalNotice" element={<LegalNotice />} />
+          <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

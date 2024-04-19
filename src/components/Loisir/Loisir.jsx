@@ -13,11 +13,11 @@ const Loisir = ({ title, url,iconName,subtitle,description }) => {
         <div className="icon-content">
         {url !== "" ? ( // Vérifie si l'URL n'est pas vide
             <Link to={url} target="_blank">
-              <IconComponent style={iconYoutube} size={80} />
+              <IconComponent style={iconYoutube} size={70} />
             </Link>
           ) : (
             // Si l'URL est vide, affiche seulement l'icône sans lien
-            <IconComponent style={iconStyle} size={80} />
+            <IconComponent style={iconStyle} size={70} />
           )}
         </div>
       </div>

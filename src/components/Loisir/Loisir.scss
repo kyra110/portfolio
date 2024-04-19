@@ -49,7 +49,7 @@
   }
   p {
     color: $foreground;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: lighter;
     padding: 5px;
     padding-left: 20px;
@@ -57,15 +57,22 @@
     width: fit-content;
   }
 }
+@media only screen and (max-width: 1024px) {
+.loisir{
+  p{
+    font-size: 0.9rem;
+  }
+}
+}
 @media only screen and (max-width: 775px) {
   .loisir{
     width: 80%;
     height: 45vh;
     p{
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
     svg{
-      height: 4rem;
+      height: 3rem;
     }
   }
 }

@@ -25,6 +25,9 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 2.5rem;
       }
+      .stack{
+        width: 80%;
+      }
     }
     .container__photo__kyra {
       display: flex;
@@ -98,6 +101,7 @@
         width: 100%;
         height: 20vh;
         margin-left: 20px;
+        margin-top: 20px;
         h1 {
           font-size: 24px;
         }
