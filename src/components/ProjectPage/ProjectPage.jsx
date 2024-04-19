@@ -23,8 +23,8 @@ const ProjectPage = () => {
           ))}
         </ul>
         <div className="links">
-          <Link to={project.github}>Code</Link>
-          <Link to={project.site}>Site web</Link>
+          <Link to={project.github} target="_blank">Code</Link>
+          <Link to={project.site} target="_blank">Site web</Link>
         </div>
         <div className="container-img">
           <div className="img-L">
