@@ -20,7 +20,7 @@ const Projects = () => {
       <h1>Mes Projets</h1>
       <div className="container__projects">
         <div className="projects_L">
-          <Link to="https://kyra110.github.io/kasa" target="_blank"
+          <Link to="/project/1" 
             className="projet-1"
             onMouseOver={(e) => handleProjectHover(e.currentTarget.className)}
             onMouseOut={handleProjectLeave}
@@ -35,7 +35,7 @@ const Projects = () => {
               />
             )}
           </Link>
-          <Link to="https://kyra110.github.io/ArgentBank/" target="_blank"
+          <Link to="/project/2" 
             className="projet-2"
             onMouseOver={(e) => handleProjectHover(e.currentTarget.className)}
             onMouseOut={handleProjectLeave}
@@ -52,7 +52,7 @@ const Projects = () => {
           </Link>
         </div>
         <div className="projects_M">
-          <Link to="https://kyra110.github.io/SmallGameSnake/" target="_blank"
+          <Link to="/project/3" 
             className="projet-3"
             onMouseOver={(e) => handleProjectHover(e.currentTarget.className)}
             onMouseOut={handleProjectLeave}
@@ -69,7 +69,7 @@ const Projects = () => {
           </Link>
         </div>
         <div className="projects_R">
-          <Link to="https://kyra110.github.io/P6-OpenClassrooms/FrontEnd/index.html" target="_blank"
+          <Link to="/project/4" 
             className="projet-4"
             onMouseOver={(e) => handleProjectHover(e.currentTarget.className)}
             onMouseOut={handleProjectLeave}
@@ -84,7 +84,7 @@ const Projects = () => {
               />
             )}
           </Link>
-          <Link to="https://kyra110.github.io/portfolio/" target="_blank"
+          <Link to="/project/5" 
             className="projet-5"
             onMouseOver={(e) => handleProjectHover(e.currentTarget.className)}
             onMouseOut={handleProjectLeave}
