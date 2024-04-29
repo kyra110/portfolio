@@ -1,10 +1,7 @@
 
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
 import Header from "../Header/Header";
 import LegalNotice from "../LegalNotice/LegalNotice";
-
-
-
-import { BrowserRouter, Routes, Route,} from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Home from "../pages/Home/Home";
 import Projects from "../pages/Projects/Projects";
